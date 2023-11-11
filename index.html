@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Color Comparison Tool</title>
+  <link rel="stylesheet" href="/assets/styles/common.css">
+  <script src="/assets/scripts/main.js" defer></script>
+</head>
+<body>
+  <section id="container">
+
+    <div id="left-box" class="box">
+      <input type="text" id="left-input" onkeyup="leftInputAction()">
+      <div class="rgb-box">
+        <div class="rgb-box-inner">
+          <div class="rgb-box-key">R</div>
+          <div class="rgb-box-value" id="left-r">-</div>
+        </div>
+        <div class="rgb-box-inner">
+          <div class="rgb-box-key">G</div>
+          <div class="rgb-box-value" id="left-g">-</div>
+        </div>
+        <div class="rgb-box-inner">
+          <div class="rgb-box-key">B</div>
+          <div class="rgb-box-value" id="left-b">-</div>
+        </div>
+      </div>
+    </div>
+
+    <div id="right-box" class="box">
+      <input type="text" id="right-input" onkeyup="rightInputAction()">
+      <div class="rgb-box">
+        <div class="rgb-box-inner">
+          <div class="rgb-box-key">R</div>
+          <div class="rgb-box-value" id="right-r">-</div>
+        </div>
+        <div class="rgb-box-inner">
+          <div class="rgb-box-key">G</div>
+          <div class="rgb-box-value" id="right-g">-</div>
+        </div>
+        <div class="rgb-box-inner">
+          <div class="rgb-box-key">B</div>
+          <div class="rgb-box-value" id="right-b">-</div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+</body>
+</html>
